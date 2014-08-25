@@ -2,7 +2,8 @@ define logparser::install(
 	$ensure = 'present',
 	$msi_name='LogParser.msi',
 	$sourceurl='http://download.microsoft.com/download/f/f/1/ff1819f9-f702-48a5-bbc7-c9656bc74de8',
-	$temp_target='C:\temp'
+	$temp_target='C:\temp',
+  $timeout = 500,
 )
 {
 	Exec{

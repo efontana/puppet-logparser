@@ -1,8 +1,8 @@
 {
   "author": "efontana",
   "dependencies": [
-  	{ "name": "puppetlabs/stdlib" },
-	{ "name": "puppetlabs/powershell" }
+  	{ "name": "puppetlabs/stdlib", "version_requirement": ">= 4.3.0" },
+	{ "name": "puppetlabs/powershell", "version_requirement": ">= 0.1.0" }
   ],
   "license": "Apache License, Version 2.0",
   "name": "efontana-logparser",
@@ -13,9 +13,7 @@
   		"7",
 		"8",
   		"Server 2008",
-  		"Server 2008 R2",
-		"Server 2012",
-		"Server 2012 R2"
+  		"Server 2008 R2"
   	  ]  
   	}
   ],
