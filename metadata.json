@@ -1,0 +1,25 @@
+{
+  "author": "efontana",
+  "dependencies": [],
+  "license": "Apache License, Version 2.0",
+  "name": "efontana-logparser",
+  "operatingsystem_support": [
+  	{
+  	  "operatingsystem": "Windows",
+  	  "operatingsystemrelease": [
+  		"7",
+		"8",
+  		"Server 2008",
+  		"Server 2008 R2"
+		"Server 2012",
+		"Server 2012 R2"
+  	  ]  
+  	}
+  ],
+  "project_page": "https://github.com/efontana/puppet-logparser",
+  "requirements": [],
+  "source": "https://github.com/efontana/puppet-logparser",
+  "summary": "",
+  "tags": [],
+  "version": "0.1.0"
+}
