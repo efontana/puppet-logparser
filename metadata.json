@@ -2,7 +2,7 @@
   "author": "efontana",
   "dependencies": [
   	{ "name": "puppetlabs/stdlib", "version_requirement": ">= 4.3.0" },
-	{ "name": "puppetlabs/powershell" }
+	{ "name": "puppetlabs/powershell", "version_requirement": "= 1.0.2" }
   ],
   "license": "Apache License, Version 2.0",
   "name": "efontana-logparser",
