@@ -1,4 +1,4 @@
-class logparser($ensure = present)
+class logparser()
 {
 	logparser::install { "install":
 	}	
